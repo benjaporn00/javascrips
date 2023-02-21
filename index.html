@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benjaporn</title>
+</head>
+<body>
+    <h1>Welcome to Benjaporn's webpage</h1>
+    <p id="test"></p>
+    <script>
+       window.alert("Welcome to my website");
+       document.getElementById("test").innerHTML = 4+5;
+       console.log(4+5);
+       var age = window.alert("16");
+       var lastName = window.alert("Thiruck");
+       var cars = window.alert("Toyota", "Honda", "BMW");
+       var me = {firstName:"Benjaporn", lastName:"Thiruck"};
+       alert(JSON.stringify(me));
+       console.log(me)
+       var x = 4;
+       var y = 5;
+       var z = x + y;
+       document.getElementById("test").innerHTML = z;
+  
+ </script>
+    <button onclick="this.innerHTML=Date()">The time is?</button>
+    <script>
+     function myFunction(name1,name2)
+     {
+      alert("Welcome " + name1 +", คุณ " + name2);
+     }
+
+</script>
+ <button onclick="myFunction('jeong','kim')">ต้อนรับ</button>
+    
+        <!--if condition-->
+<script>
+    a=1;
+    if(a==1){
+    alert("a มีค่าเท่ากับ 1")}
+</script>
+
+<!--if else condition-->
+<script>
+    a=0;
+    if(a==1){
+    alert("a มีค่าเท่ากับ1");}
+    else{
+    alert("a มีค่าไม่เท่ากับ1");}
+    
+    a=2;
+    if(a==1){
+    alert("a มีค่าเท่ากับ1");}
+    else if(a==2){
+    alert("a มีค่าเท่ากับ2");} 
+    else {
+    alert("a มีค่าไม่เท่ากับ1");} 
+</script>
+
+        </script>
+        <!--การใช้งาน-->
+        <button onclick="myFunction(5,4)">Click Me</button>
+
+    
+</body>
+</html>
